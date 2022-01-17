@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image1"
+            android:src="@drawable/image1"
+            android:contentDescription="@string/image1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image2"
+            android:src="@drawable/image2"
+            android:layout_below="@id/image1"
+            android:contentDescription="@string/image2"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:layout_marginTop="-918dp"
+            android:src="@drawable/image3"
+            android:contentDescription="@string/image3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image4"
+            android:src="@drawable/image4"
+            android:layout_below="@id/image3"
+            android:contentDescription="@string/image4"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image5"
+            android:src="@drawable/image5"
+            android:layout_below="@id/image4"
+            android:contentDescription="@string/image5"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image6"
+            android:src="@drawable/image6"
+            android:layout_below="@id/image5"
+            android:contentDescription="@string/image6"/>
+    </RelativeLayout>
+
+</ScrollView>

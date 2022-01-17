@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Art</string>
+    <string name="image1">image</string>
+    <string name="image2">image2</string>
+    <string name="image3">image3</string>
+    <string name="image4">image4</string>
+    <string name="image5">image5</string>
+    <string name="image6">image6</string>
+    <string name="name">SumiRo</string>
+    <string name="address">Flat no-63, Patel Chowk, Goregaon</string>
+    <string name="phone">9234123480</string>
+    <string name="email">sumiro21@gmail.com</string>
+    <string name="map">Map</string>
+</resources>
